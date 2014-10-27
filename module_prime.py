@@ -18,13 +18,13 @@ def is_prime(n):
     return True
 
 def get_prime_factors(n, prime_factors):
-    '''Gets the prime factors of a number n and populates to list prime_factors
-    Args:
+  '''Gets the prime factors of a number n and populates to list prime_factors
+  Args:
       n - the number 
       prime_factors - list of prime factors
-    Return:
+  Return:
       no return, prime factors is populated in the prime_factors list which is a mutable object
-    '''
+  '''
   if is_prime(n):
     prime_factors.append(n)
     return
